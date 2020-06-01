@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+        <Button
+            android:id="@+id/one_btn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="치킨"/>
+
+        <Button
+            android:id="@+id/two_btn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/piz"
+            android:padding="10dp"
+            android:text="피자" />
+
+        <Button
+            android:id="@+id/three_btn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="중국집"/>
+        </TableRow>
+        <TableRow>
+        <Button
+            android:id="@+id/four_btn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="한식"/>
+        <Button
+            android:id="@+id/five_btn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="일식"/>
+        <Button
+            android:id="@+id/six_btn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="분식"/>
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
